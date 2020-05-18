@@ -49,9 +49,17 @@ typedef struct mjxq_ctx {
     mjx_disconnection disconnection_callback;
 } mjxo_ctx_t;
 
+#ifdef  __cplusplus
+extern "C" {
+#endif
+
 mjxo_ctx_t * MjxqInit( mjx_hopping cb, mjx_disconnection cb2 );
 void MjxqDestory(mjxo_ctx_t * ctx);
 void MjxqUpdateFiniteStateMachine( mjxo_ctx_t * ctx, mjx_packet_t * pkt);
 // Task for detect packet timeout
 void MjxqTask(mjxo_ctx_t *ctx);
+
+#ifdef  __cplusplus
+}
+#endif
 #endif
