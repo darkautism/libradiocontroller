@@ -1,0 +1,17 @@
+{
+    "name": "libradiocontroller",
+    "keywords": "radiocontroller, rf24, nrf24, nrf24l01, H010, H36F",
+    "description": "Communication protocol for H36F",
+    "homepage": "https://github.com/darkautism/libradiocontroller",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/darkautism/libradiocontroller.git"
+    },
+    "version": "0.0.1",
+    "authors": {
+        "name": "Kautism",
+        "url": "https://darkautism.blogspot.com/"
+    },
+    "frameworks": "arduino",
+    "platforms": "*"
+}
